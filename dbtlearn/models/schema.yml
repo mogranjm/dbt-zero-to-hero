@@ -45,8 +45,8 @@ models:
       - name: is_superhost
         description: Boolean, self explanatory.
         tests:
-          accepted_values: 
-            values: ['t', 'f']
+          - accepted_values: 
+              values: ['t', 'f']
       - name: created_at
         description: Timestamp, self explanatory.
       - name: updated_at
